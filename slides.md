@@ -1,27 +1,25 @@
 ---
 # try also 'default' to start simple
 theme: seriph
-class: 'center'
+layout: first
 background: ''
 themeConfig:
   primary: '#003576'
 drawing:
   enabled: true
+slideTitle: Distributed platform for multi-model co-simulations in smart grids
 ---
-<style>
-h1 {
-color: #003576;
-}
-</style>
-# Distributed platform for multi-model co-simulations in smart grids
 
-PhDMAN
+## PhDMAN
 
-Oral Presentation 20-10-2021
 
-Tutor: Massimo Poncino & Edoardo Patti
+### Oral Presentation 
 
-Matteo Orlando-s277013
+
+### Tutor: Massimo Poncino & Edoardo Patti
+
+
+### Matteo Orlando-s277013
 
 
 
@@ -139,7 +137,7 @@ display:inline-grid
 
 <v-clicks>
 
-- 3-phase smart meter prototype
+- 3-phase smart meter prototype with RTS
 - Communication infrastructure (REST+MQTT)
 - Self-configuration and auto-update of the devices
 - On board algorithms (FD,FL, SE)
@@ -205,7 +203,7 @@ blockquote{
 
 ### State of the Art:
 - Shift from fossil fuel and decreasing cost of PV panels
-- Appearance of new actors in the smart grid scenario (prosumers, energy community & aggregators)
+- Appearance of new actors in the smart grid scenario (prosumers, renewable energy community)
 ### Objective & novelties:
 - Economic analysis of PV systems installation
 - Analysis of multiple possible panels configuration
@@ -214,34 +212,33 @@ blockquote{
 - Shading effect of PV panels
 
 ---
-layout: two-cols
----
 
 # Previous works
 
-### Optimal Configuration and Placement of PV Systems in Building Roofs with Cost Analysis 
+**Optimal Configuration and Placement of PV Systems in Building Roofs with Cost Analysis** 
+
+<div class="two-cols">
+<div>
 
 - Yearly weather data (i.e. irradiation, temperature) from GIS
 - Shading avoidance and/or exploitation
 - Improved power generation
 
-<img src="/assets/res1.png" style="margin:auto;max-height:12vh">
-
 >M. Orlando et al. "Optimal Configuration and Placement of PV Systems in Building Roofs with Cost Analysis," 2020 IEEE COMPSAC
 
-::right::
+</div>
+<div>
 
-### Design of District-level Photovoltaic Installations for Optimal Power Production and Economic Benefit.
-
-
-- Possibility deploy and connect panels across different roofs
-- Analysis of the impact of the number of panels  on the power production with costs vs. benefits
-
-<img src="/assets/res2.png" style="margin:auto;max-height:12vh">
-
->M. Orlando et al. "Design of District-level Photovoltaic Installations for Optimal Power Production and Economic Benefit," 2021 IEEE COMPSAC
+<img src="/assets/res1.png" style="margin:auto;max-height:16vh">
+<img src="/assets/improvement.png" style="margin:auto;max-height:17vh">
+</div>
+</div>
 
 <style>
+.two-cols{
+grid-template-columns: repeat(2, minmax(0, 1fr));
+display:inline-grid
+}
 .bottom{
     margin-top:4rem
     }
@@ -251,6 +248,52 @@ blockquote{
 width: 20vw;
 bottom: 1rem;
     }
+strong{
+ color:var(--slidev-theme-primary)!important
+ }
+</style>
+
+---
+
+# Previous works
+
+**Design of District-level Photovoltaic Installations for Optimal Power Production and Economic Benefit.**
+
+<div class="two-cols">
+<div>
+
+- Possibility deploy and connect panels across different roofs
+- Analysis of the impact of the number of panels  on the power production with costs vs. benefits
+
+<img src="/assets/res2.png" style="margin:auto;max-height:10vh">
+
+>M. Orlando et al. "Design of District-level Photovoltaic Installations for Optimal Power Production and Economic Benefit," 2021 IEEE COMPSAC
+</div>
+<div>
+
+
+<img src="/assets/stacked_annotated.png" style="margin:auto;max-height:38vh">
+</div>
+</div>
+
+
+<style>
+.two-cols{
+grid-template-columns: repeat(2, minmax(0, 1fr));
+display:inline-grid
+}
+.bottom{
+    margin-top:4rem
+    }
+blockquote{
+    font-size:xx-small;
+    position: absolute;
+width: 20vw;
+bottom: 1rem;
+    }
+strong{
+ color:var(--slidev-theme-primary)!important
+ }
 </style>
 
 ---
@@ -273,6 +316,12 @@ Starting from this works the effort was focused on overcoming 2 main limitation:
 
 </v-clicks>
 
+<style>
+strong{
+ color:var(--slidev-theme-primary)!important
+ }
+</style>
+
 ---
 
 # A framework for economic and environmental benefit through Renewable Energy Community 
@@ -284,14 +333,22 @@ Obtained result
 
 - Possibility to evaluate systems with different panel orientation (also mixed)
 - By simulating the consumption of a realistic population we can realistically evaluate the benefit of a REC
+- $CO_2$ reduction
+
+
+>A framework for economic and environmental benefit through Renewable Energy Community" Matteo Orlando et al. IEEE Systems Journal , under review
 
 </div>
 <div class="two-cols">
 
 
 <img src="/assets/rec1.png" style="margin:auto;max-width:10vw">
-<img src="/assets/rec2.png" style="margin:auto;max-width:9vw">
 
+<div >
+<img src="/assets/rec2.png" style="margin:auto;max-width:13vw">
+<img src="/assets/rec3.png" style="margin:auto;max-width:13vw">
+
+</div>
 </div>
 </div>
 
@@ -300,5 +357,44 @@ Obtained result
 grid-template-columns: repeat(2, minmax(0, 1fr));
 display:inline-grid
 }
+blockquote{
+    font-size:xx-small;
+    position: absolute;
+width: 20vw;
+bottom: 1rem;
+    }
 </style>
 
+---
+layout: two-cols
+---
+
+# Ruritage
+
+Rural regeneration through heritage
+
+This project gave me the opportunity to work in a multidisciplinary team that
+involves various professionals from different Academias and companies in
+Europe. My tasks were related to web programming and API integration
+
+> Tamborrino, R., Dinler, M., Patti, E., Aliberti, A., Orlando, M., De Luca,
+> C., ... & Pavlova, I. (2022). Engaging Users in Resource Ecosystem Building
+> for Local Heritage-Led Knowledge. Sustainability
+
+> Tamborrino, R., Patti, E., Aliberti, A., Dinler, M., Orlando, M., de Luca,
+> C., ... & Pavlova, I. (2022). A resources ecosystem for digital and
+> heritage-led holistic knowledge in rural regeneration. Journal of Cultural
+> Heritage
+
+::right::
+
+<img src="/assets/ruritage1.png" style="margin:auto;max-width:20vw">
+<img src="/assets/ruritage2.png" style="margin:auto;max-width:20vw">
+
+<style>
+blockquote{
+    font-size:xx-small;
+width: 20vw;
+margin-top:2rem
+    }
+</style>
