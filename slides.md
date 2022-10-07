@@ -333,7 +333,7 @@ Obtained result
 
 - Possibility to evaluate systems with different panel orientation (also mixed)
 - By simulating the consumption of a realistic population we can realistically evaluate the benefit of a REC
-- $CO_2$ reduction
+- $CO_2$ reduction due to usage of renewable energy
 
 
 >A framework for economic and environmental benefit through Renewable Energy Community" Matteo Orlando et al. IEEE Systems Journal , under review
@@ -398,3 +398,29 @@ width: 20vw;
 margin-top:2rem
     }
 </style>
+
+---
+
+# Publication
+
+<div class="publications">
+
+- [J] **A Novel Internet-of-Things Infrastructure to Support Self-Healing Distribution Systems /** Estebsari, Abouzar; Orlando, Matteo; Pons, Enrico; Acquaviva, Andrea; Patti, Edoardo. - ELETTRONICO. - (2018), pp. 1-6. ((Intervento presentato al  convegno International Conference on Smart Energy Systems and Technologies (SEST 2018) tenutosi a Sevilla, Spain nel 10-12 September 2018 [10.1109/SEST.2018.8495717].
+- [J] **Engaging Users in Resource Ecosystem Building for Local Heritage-Led Knowledge /** Tamborrino, Rosa Rita Maria; Dinler, M.; Patti, E.; Aliberti, A.; Orlando, M.; De Luca, C.; Tondelli, S.; Amirzada, Z.; Pavlova, I.. - In: SUSTAINABILITY. - ISSN 2071-1050. - ELETTRONICO. - 14:8(2022), p. 4575. [10.3390/su14084575]
+- [J] **A Resources Ecosystem for digital and heritage-led holistic knowledge in rural regeneration /** Tamborrino, Rosa Rita Maria; Patti, Edoardo; Aliberti, Alessandro; Dinler, Mesut; Orlando, Matteo; de Luca, Claudia; Tondelli, Simona; Barrientos, Francisco; Martin, John; Cunha, Luís F. M.; Stam, Andries; Nales, Aad; Egusquiza, Aitziber; Amirzada, Zahra; Pavlova, Irina. - In: JOURNAL OF CULTURAL HERITAGE. - ISSN 1778-3674. - 57:(2022), pp. 265-275. [10.1016/j.culher.2022.09.012]
+- [C] **Optimal Configuration and Placement of PV Systems in Building Roofs with Cost Analysis /** Orlando, Matteo; Bottaccioli, Lorenzo; Patti, Edoardo; Macii, Enrico; Vinco, Sara; Poncino, Massimo. - (2020), pp. 1411-1416. ((Intervento presentato al  convegno 2020 IEEE International Computer Software and Applications Conference (COMPSAC) tenutosi a Madrid, Spain nel 13-17 July 2020 [10.1109/COMPSAC48688.2020.00-58].
+- [C] **Design of District-level Photovoltaic Installations for Optimal Power Production and Economic Benefit /** Orlando, Matteo; Bottaccioli, Lorenzo; Vinco, Sara; Macii, Enrico; Poncino, Massimo; Patti, Edoardo. - (2021). ((Intervento presentato al  convegno IEEE International Computer Software and Applications Conference (COMPSAC) tenutosi a Virtual Conference (due to Covid-19) nel July 12-16, 2021 [10.1109/COMPSAC51774.2021.00283].
+- [C] **A Smart Meter Infrastructure for Smart Grid IoT Applications /** Orlando, Matteo; Estebsari, Abouzar; Pons, Enrico; Pau, Marco; Quer, Stefano; Poncino, Massimo; Bottaccioli, Lorenzo; Patti, Edoardo. - In: IEEE INTERNET OF THINGS JOURNAL. - ISSN 2327-4662. - STAMPA. - 9:14(2022), pp. 12529-12541. [10.1109/JIOT.2021.3137596]
+
+</div>
+
+<style>
+.publications{
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+</style>
+
+---
