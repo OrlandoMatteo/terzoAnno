@@ -172,6 +172,7 @@ layout: two-cols
 - Fast fault detection and location
 - Restore of the service in a short amount of time
 - Resilience to network congestion
+- Inclusion in co-simulation framework
 
 <div class="bottom">
 
@@ -189,10 +190,11 @@ layout: two-cols
 
 <style>
 .bottom{
-    margin-top:4rem
+    margin-bottom:2rem
     }
 blockquote{
     font-size:xx-small;
+    margin-top:0.5rem
     }
 </style>
 
@@ -219,13 +221,18 @@ blockquote{
 
 <div class="two-cols">
 <div>
+<div>
 
 - Yearly weather data (i.e. irradiation, temperature) from GIS
 - Shading avoidance and/or exploitation
 - Improved power generation
 
+</div>
+<div class="bottom">
+
 >M. Orlando et al. "Optimal Configuration and Placement of PV Systems in Building Roofs with Cost Analysis," 2020 IEEE COMPSAC
 
+</div>
 </div>
 <div>
 
@@ -240,13 +247,11 @@ grid-template-columns: repeat(2, minmax(0, 1fr));
 display:inline-grid
 }
 .bottom{
-    margin-top:4rem
+    margin-bottom:2rem
     }
 blockquote{
     font-size:xx-small;
-    position: absolute;
-width: 20vw;
-bottom: 1rem;
+    margin-top:0.5rem
     }
 strong{
  color:var(--slidev-theme-primary)!important
@@ -287,9 +292,7 @@ display:inline-grid
     }
 blockquote{
     font-size:xx-small;
-    position: absolute;
-width: 20vw;
-bottom: 1rem;
+margin-bottom:2rem
     }
 strong{
  color:var(--slidev-theme-primary)!important
@@ -334,6 +337,7 @@ Obtained result
 - Possibility to evaluate systems with different panel orientation (also mixed)
 - By simulating the consumption of a realistic population we can realistically evaluate the benefit of a REC
 - $CO_2$ reduction due to usage of renewable energy
+- Working on parallel execution
 
 
 >A framework for economic and environmental benefit through Renewable Energy Community" Matteo Orlando et al. IEEE Systems Journal , under review
@@ -341,12 +345,14 @@ Obtained result
 </div>
 <div class="two-cols">
 
-
-<img src="/assets/rec1.png" style="margin:auto;max-width:10vw">
-
 <div >
-<img src="/assets/rec2.png" style="margin:auto;max-width:13vw">
-<img src="/assets/rec3.png" style="margin:auto;max-width:13vw">
+
+<img src="/assets/rec1.png" style="margin:auto;max-width:-moz-available">
+
+</div>
+<div >
+<img src="/assets/rec2.png" style="margin:auto;max-width:-moz-available">
+<img src="/assets/rec3.png" style="margin:auto;max-width:-moz-available">
 
 </div>
 </div>
@@ -359,9 +365,7 @@ display:inline-grid
 }
 blockquote{
     font-size:xx-small;
-    position: absolute;
-width: 20vw;
-bottom: 1rem;
+margin-bottom: 2rem;
     }
 </style>
 
