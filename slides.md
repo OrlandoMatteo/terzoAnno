@@ -172,7 +172,6 @@ layout: two-cols
 - Fast fault detection and location
 - Restore of the service in a short amount of time
 - Resilience to network congestion
-- Inclusion in co-simulation framework
 
 <div class="bottom">
 
@@ -180,7 +179,6 @@ layout: two-cols
 
 > "A Smart Meter Infrastructure for Smart Grid IoT Applications," M. Orlando et al.,in IEEE Internet of Things Journal, vol. 9, no. 14, pp. 12529-12541, 15 July15, 2022, doi: 10.1109/JIOT.2021.3137596.
 
-> "Hybrid SiL and HiL Multi-model Co-simulation Infrastructure for Multi-Energy Systems" Work in Progress
 </div>
 
 ::right::
@@ -197,7 +195,38 @@ blockquote{
     margin-top:0.5rem
     }
 </style>
+---
+layout: two-cols
+---
 
+# 3SMA
+
+**Results**
+
+- State estimation capability
+- Fast fault detection and location
+- Restore of the service in a short amount of time
+- Resilience to network congestion
+- Inclusion in co-simulation framework
+
+<div class="bottom">
+
+
+> "Hybrid SiL and HiL Multi-model Co-simulation Infrastructure for Multi-Energy Systems" Work in Progress
+</div>
+
+::right::
+<img src="/assets/cosim.png" style="margin:auto;max-height:18vh">
+
+<style>
+.bottom{
+    margin-bottom:2rem
+    }
+blockquote{
+    font-size:xx-small;
+    margin-top:0.5rem
+    }
+</style>
 
 ---
 
@@ -337,7 +366,6 @@ Obtained result
 - Possibility to evaluate systems with different panel orientation (also mixed)
 - By simulating the consumption of a realistic population we can realistically evaluate the benefit of a REC
 - $CO_2$ reduction due to usage of renewable energy
-- Working on parallel execution
 
 
 >A framework for economic and environmental benefit through Renewable Energy Community" Matteo Orlando et al. IEEE Systems Journal , under review
@@ -355,6 +383,41 @@ Obtained result
 <img src="/assets/rec3.png" style="margin:auto;max-width:-moz-available">
 
 </div>
+</div>
+</div>
+
+<style>
+.two-cols{
+grid-template-columns: repeat(2, minmax(0, 1fr));
+display:inline-grid
+}
+blockquote{
+    font-size:xx-small;
+margin-bottom: 2rem;
+    }
+</style>
+
+---
+
+# A framework for economic and environmental benefit through Renewable Energy Community 
+
+<div class="two-cols">
+<div >
+
+Obtained result
+
+- Possibility to evaluate systems with different panel orientation (also mixed)
+- By simulating the consumption of a realistic population we can realistically evaluate the benefit of a REC
+- $CO_2$ reduction due to usage of renewable energy
+- Working on parallel execution (@Rasterframes)
+
+
+</div>
+
+<div >
+
+<img src="/assets/parallel.png" style="margin:auto;max-width:-moz-available">
+
 </div>
 </div>
 
